@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do List</title>
+	<style>
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			padding: 10px;
+			border-bottom: 1px solid #ccc;
+		}
+		li:last-child {
+			border-bottom: none;
+		}
+		.done {
+			text-decoration: line-through;
+			color: #888;
+		}
+	</style>
+</head>
+<body>
+	<h1>To-Do List</h1>
+
+    <div>
+        <label for="add"></label>
+        <input type="text" id="add" placeholder="Adicionar tarefa">
+    </div>
+
+	<ul id="todo-list">
+		<li><input type="checkbox" id="task1"> Tarefa 1
+        <button>Editar</button> 
+        <button>Excluir</button>
+        </li>
+
+		<li><input type="checkbox" id="task2"> Tarefa 2
+        <button>Editar</button> 
+        <button>Excluir</button>
+        </li>
+
+		<li><input type="checkbox" id="task3"> Tarefa 3
+        <button>Editar</button> 
+        <button>Excluir</button>
+        </li>
+
+		<li><input type="checkbox" id="task4"> Tarefa 4
+        <button>Editar</button> 
+        <button>Excluir</button>
+        </li>
+
+		<li><input type="checkbox" id="task5"> Tarefa 5
+        <button>Editar</button> 
+        <button>Excluir</button>
+        </li>
+	</ul>
+</body>
+</html>
